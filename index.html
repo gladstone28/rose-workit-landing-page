@@ -1,52 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Manrope:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/media.css" rel="stylesheet" type="text/css" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <title>Frontend Mentor | Workit landing page</title>
-
-</head>
-
-<body>
-    <div class="container">
-        <nav class="nav">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
-        </nav>
-
-        <h1 class="heading">Apply for access</h1>
-
-        <p class="subheading">Data tailored to your needs.</p>
-
-        <p>Learn more</p>
-
-        <div class="section">
-            <h2>1. Actionable insights</h2>
-            <p>Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <div class="header_nav">
+            <div class="header_logo">
+              <a href="#"
+                ><img src="./images/logo-light.svg" alt="Logo_anchor"
+              /></a>
+            </div>
+            <div>
+              <a class="header_link" href="#footer">Apply for access</a>
+            </div>
+          </div>
+          <div class="header_content">
+            <h1 class="header_content--title">
+              Data <span class="underline">tailored</span> to your needs.
+            </h1>
+          </div>
+          <div class="button_wrapper">
+            <a class="button" href="#">Learn more</a>
+          </div>
+          <div class="phone-image">
+            <img src="./images/image-hero.webp" alt="phone_photo" />
+          </div>
         </div>
-
-        <div class="section">
-            <h2>2. Data-driven decisions</h2>
-            <p>Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</p>
+      </div>
+    </header>
+    <main id="main">
+      <div class="container">
+        <div class="main_row">
+          <div class="row_item">
+            <p class="row_item--number">1</p>
+            <h3 class="row_item--title">Actionable insights</h3>
+            <p class="row_item--text">
+              Optimize your products, improve customer satisfaction and stay
+              ahead of the competition with our product data analytics.
+            </p>
+          </div>
+          <div class="row_item">
+            <p class="row_item--number">2</p>
+            <h3 class="row_item--title">Data-driven decisions</h3>
+            <p class="row_item--text">
+              Make data-driven decisions with our product data analytics. Our
+              AI-generated reports help you unlock insights hidden in your
+              product data.
+            </p>
+          </div>
+          <div class="row_item">
+            <p class="row_item--number">3</p>
+            <h3 class="row_item--title">Always affordable</h3>
+            <p class="row_item--text">
+              Always affordable pricing that scales with your business. Get
+              top-quality product data analytics services without hidden costs
+              or unexpected fees.
+            </p>
+          </div>
         </div>
-
-        <div class="section">
-            <h2>3. Always affordable</h2>
-            <p>Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</p>
+      </div>
+    </main>
+    <section id="hero_section">
+      <div class="container">
+        <div class="hero_row">
+          <div class="hero_image">
+            <img src="./images/image-founder.webp" alt="founder_photo" />
+          </div>
+          <div class="hero_content">
+            <h2 class="hero_content--title">Be the first to test</h2>
+            <p class="hero_content--text">
+              Hi, I'm Louis Graham, the founder of the company. Book a demo call
+              with me to become a beta tester for our app and kickstart your
+              company. Apply for access below and I’ll be in touch to schedule a
+              call.
+            </p>
+            <a class="button_hero" href="#">Apply for access</a>
+          </div>
         </div>
-
-        <h2>Be the first to test</h2>
-
-        <p>Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.</p>
-
-        <a class="cta-button" href="#">Apply for access</a>
-    </div>
-</body>
-
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <div class="footer_wrapper">
+          <div class="footer_logo">
+            <a href="#header"
+              ><img src="./images/logo-dark.svg" alt="logo_footer"
+            /></a>
+          </div>
+          <div class="footer_social">
+            <a href="#" class="footer_social--item"
+              ><img
+                class="path"
+                src="./images/icon-facebook.svg"
+                alt="facebook_social"
+            /></a>
+            <a href="#" class="footer_social--item"
+              ><img
+                class="path"
+                src="./images/icon-twitter.svg"
+                alt="facebook_social"
+            /></a>
+            <a href="#" class="footer_social--item"
+              ><img
+                class="path"
+                src="./images/icon-instagram.svg"
+                alt="facebook_social"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
